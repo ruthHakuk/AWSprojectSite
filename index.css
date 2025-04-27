@@ -1,22 +1,25 @@
 body {
-      background: linear-gradient(135deg, #e0f7fa, #80deea);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      height: 100vh;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url('https://habodeket.co.il/wp-content/uploads/2021/02/code-1076536_1920-768x431.jpg') no-repeat center center/cover;
+    backdrop-filter: blur(8px); /* מטשטש את הרקע */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .card {
-      background: rgb(156, 153, 153);
-      padding: 30px 40px;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      width: 300px;
-    }
+  .card {
+    background: linear-gradient(#141e30, #243b55) padding-box, 
+                linear-gradient(90deg, #00d2ff, #3a47d5) border-box;
+    padding: 30px 40px;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+  }
 
     .card:hover {
       transform: translateY(-10px);
@@ -29,10 +32,7 @@ body {
       object-fit: cover;
       border-radius: 50%;
       margin-bottom: 8px;
-      border: 3px solid transparent;
-      background: linear-gradient(#141e30, #243b55) padding-box, 
-                  linear-gradient(90deg, #00d2ff, #3a47d5) border-box;
-      border-radius: 20px;
+      border: 3px solid #80deea;
     }
 
     .title {
