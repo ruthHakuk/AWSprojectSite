@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: url('https://habodeket.co.il/wp-content/uploads/2021/02/code-1076536_1920-768x431.jpg') no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392/v1640612534/direct/shutterstock_255742975_bcmvii.jpg') no-repeat center center/cover;
     backdrop-filter: blur(3.1px); 
     display: flex;
     justify-content: center;
