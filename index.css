@@ -1,6 +1,8 @@
 body {
-    background: linear-gradient(135deg, #e0f7fa, #80deea);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1581093588401-6c7ba9b8e8c5?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    font-family: 'Fira Code', monospace;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -9,18 +11,20 @@ body {
   }
 
   .card {
-    background: white;
+    background: rgba(255, 255, 255, 0.1);
     padding: 30px 40px;
     border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    border: 2px solid #00d4ff;
     text-align: center;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 300px;
+    width: 320px;
   }
 
   .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
   }
 
   .profile-img {
@@ -29,18 +33,19 @@ body {
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 3px solid #80deea;
+    border: 3px solid #00d4ff;
   }
 
   .title {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #0077b6;
+    color: #00e5ff;
+    letter-spacing: 1px;
   }
 
   .links a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-size: 18px;
     margin: 10px 0;
     display: flex;
@@ -51,5 +56,5 @@ body {
   }
 
   .links a:hover {
-    color: #0077b6;
+    color: #00d4ff;
   }
