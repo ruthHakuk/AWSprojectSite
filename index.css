@@ -10,7 +10,7 @@ body {
   }
 
   .card {
-    background: linear-gradient(#c4ccda, #7596bc) padding-box, 
+    background: linear-gradient(#edeff1, #bad2ed) padding-box, 
                 linear-gradient(90deg, #00d2ff, #3a47d5) border-box;
     padding: 30px 40px;
     border: 3px solid transparent;
