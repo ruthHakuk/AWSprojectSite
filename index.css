@@ -56,3 +56,19 @@ body {
     .links a:hover {
       color: #0077b6;
     }
+    @media (max-width: 600px) {
+        .card {
+          width: 90%; /* במקום 300px - כמעט כל המסך */
+          padding: 20px 20px;
+        }
+      
+        .card img {
+          width: 100px;
+          height: 100px;
+        }
+      
+        .links a {
+          display: block;
+          margin: 10px 0;
+        }
+      }
