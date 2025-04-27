@@ -9,7 +9,7 @@ body {
     }
 
     .card {
-      background: white;
+      background: rgb(156, 153, 153);
       padding: 30px 40px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.2);
@@ -28,8 +28,11 @@ body {
       height: 130px;
       object-fit: cover;
       border-radius: 50%;
-      margin-bottom: 20px;
-      border: 3px solid #80deea;
+      margin-bottom: 8px;
+      border: 3px solid transparent;
+      background: linear-gradient(#141e30, #243b55) padding-box, 
+                  linear-gradient(90deg, #00d2ff, #3a47d5) border-box;
+      border-radius: 20px;
     }
 
     .title {
